@@ -45,9 +45,9 @@ function setup() {
   cmp = createSlider(0,360*3, 360,1);
   cmp.position(20,50);
   //lissajoux
-  lisaX = createSlider(-10,10, 1,1);
+  lisaX = createSlider(-10,10, 1,.5);
   lisaX.position(20,80);
-  lisaY = createSlider(-10,10, 1,1);
+  lisaY = createSlider(-10,10, 1,.5);
   lisaY.position(20,110);
 
   song.play();
